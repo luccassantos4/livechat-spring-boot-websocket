@@ -9,8 +9,8 @@ import org.springframework.web.util.HtmlUtils;
 public class LiveChatController {
 
     @MessageMapping("/new-message")
-    @SendTo("/topic-message/livechat")
+    @SendTo("/topics/livechat")
     public ChatOutput newMessage(ChatInput input) {
-        return new ChatOutput(HtmlUtils.htmlEscape(input.username() + ": " + input.message()));
+        return new ChatOutput(HtmlUtils.htmlEscape(input.user()) + ": " + input.message());
     }
 }

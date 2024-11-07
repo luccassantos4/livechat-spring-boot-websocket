@@ -1,4 +1,4 @@
 package luccassantos4.livechatms.controller;
 
-public record ChatOutput(String message) {
+public record ChatOutput(String content) {
 }
