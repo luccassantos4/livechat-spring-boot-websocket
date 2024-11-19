@@ -13,7 +13,7 @@
   <b>Live Chat utilizando WebSocket e Stomp, hospedando na AWS ElasticBeanstalk.</b>
 </p>
 
-![Imagem da Issue](https://github.com/luccassantos4/livechat-spring-boot-websocket/blob/main/live-chat-print.png?raw=true)
+![Imagem da Issue](https://github.com/luccassantos4/livechat-spring-boot-websocket/blob/main/live-chat-print2.png?raw=true)
 
 
 <h2 id="started">🚀 Getting started</h2>
